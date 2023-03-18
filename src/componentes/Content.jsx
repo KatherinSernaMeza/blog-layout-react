@@ -1,7 +1,15 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../pages/Home.jsx";
 
-const Footer = () => {
-  return <div>This is the Content!</div>;
+const Content = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
-export default Footer;
+export default Content;
