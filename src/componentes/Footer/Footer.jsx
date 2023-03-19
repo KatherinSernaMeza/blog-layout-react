@@ -3,11 +3,11 @@ import ItemsLink from "./ItemsLinks";
 
 const Footer = () => {
   const itemsLink1 = [
-    { item: "Sed neque nisi consequat" },
-    { item: "Sed neque nisi consequat" },
-    { item: "Sed neque nisi consequat" },
-    { item: "Sed neque nisi consequat" },
-    { item: "Sed neque nisi consequat" },
+    { item: "Sed neque nisi consequat1" },
+    { item: "Sed neque nisi consequat1" },
+    { item: "Sed neque nisi consequat1" },
+    { item: "Sed neque nisi consequat1" },
+    { item: "Sed neque nisi consequat1" },
   ];
 
   const itemsLink2 = [
