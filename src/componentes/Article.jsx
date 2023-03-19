@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Article = () => {
-  const img = "images/pic6.jpg";
+  const img = "../assets/img/pic6.jpg";
   return (
     <div className="container-colum space-column padding-container">
       <div className="title-column-container">

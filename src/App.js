@@ -4,6 +4,7 @@ import Header from "./componentes/Header/Header.jsx";
 import Banner from "./componentes/Banner.jsx";
 import Content from "./componentes/Content.jsx";
 import Footer from "./componentes/Footer/Footer.jsx";
+import "./assets/css/main.css";
 
 function App() {
   return (

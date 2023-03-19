@@ -6,19 +6,19 @@ import Article from "../componentes/Article";
 const Home = () => {
   const themes = [
     {
-      img: "images/pic3.jpg",
+      img: "../assets/img/pic3.jpg",
       title: "Magna Gravida Dolore",
       description:
         "Varius nibh. Suspendisse vitae magna eget et amet mollis justo facilisis amet quis consectetur in, sollicitudin vitae justo. Cras Maecenas eu arcu purus, phasellus fermentum elit.",
     },
     {
-      img: "images/pic4.jpg",
+      img: "../assets/img/pic4.jpg",
       title: "Magna Gravida Dolore",
       description:
         "Varius nibh. Suspendisse vitae magna eget et amet mollis justo facilisis amet quis consectetur in, sollicitudin vitae justo. Cras Maecenas eu arcu purus, phasellus fermentum elit.",
     },
     {
-      img: "images/pic5.jpg",
+      img: "../assets/img/pic5.jpg",
       title: "Magna Gravida Dolore",
       description:
         "Varius nibh. Suspendisse vitae magna eget et amet mollis justo facilisis amet quis consectetur in, sollicitudin vitae justo. Cras Maecenas eu arcu purus, phasellus fermentum elit.",

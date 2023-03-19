@@ -2,7 +2,7 @@ import React from "react";
 import MainLinks from "./MainLinks";
 
 export const Main = () => {
-  const imgRoute = ["images/pic2.jpg", "images/pic1.jpg"];
+  const imgRoute = ["../../assets/img/pic2.jpg", "../../assets/img/pic1.jpg"];
 
   const arrayLink = [
     { link: "Sed neque nisi consequat" },
