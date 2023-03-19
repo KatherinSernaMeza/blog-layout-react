@@ -1,8 +1,10 @@
 import React from "react";
 import MainLinks from "./MainLinks";
+import pic1 from "../../assets/img/pic1.jpg";
+import pic2 from "../../assets/img/pic2.jpg";
 
 export const Main = () => {
-  const imgRoute = ["../../assets/img/pic2.jpg", "../../assets/img/pic1.jpg"];
+  // const imgRoute = ["../../assets/img/pic2.jpg", "../../assets/img/pic1.jpg"];
 
   const arrayLink = [
     { link: "Sed neque nisi consequat" },
@@ -36,7 +38,7 @@ export const Main = () => {
               <section>
                 <h2 className="title-theme padding-themes">Who are you guys</h2>
                 <div className="content-theme">
-                  <img className="img-theme" src={imgRoute[0]} alt="" />
+                  <img className="img-theme" src={pic1} alt="" />
                   <div>
                     <h4 className="title-theme">Jane Anderson</h4>
                     <p className="description-theme">
@@ -48,7 +50,7 @@ export const Main = () => {
               </section>
               <section>
                 <div className="content-theme">
-                  <img className="img-theme" src={imgRoute[1]} alt="" />
+                  <img className="img-theme" src={pic2} alt="" />
                   <div>
                     <h4 className="title-theme">Jane Anderson</h4>
                     <p className="description-theme">
